@@ -20,7 +20,7 @@
     },
     "scripts": {
         "build": "better-npm-run babelify",
-        "test": "better-npm-run test",
+        "test": "echo \"No test specified\"",
         "test:watch": "better-npm-run test-watch",
         "prepare": "npm run build",
         "lint": "eslint src --ext .js,.jsx --ignore-pattern __tests__ --ignore-pattern example --ignore-pattern awesomplete",
