@@ -5,6 +5,15 @@
 ## Fix or improve focus
 
 
+### How to contribute ?
+
+#### Declare an issue
+
+You have question about FOCUS-CORE ? About how to use it ?
+You have detected an problem in the framework. A component don't behave as expected ?
+
+Please read this [document](https://github.com/KleeGroup/focus-docs/tree/master/contribute/DECLARE_ISSUE.md)
+
 #### Contribute to DEVS
 
 You want to contribute to FOCUS-CORE, propose new features, fix an issue ?
