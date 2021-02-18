@@ -1,4 +1,4 @@
-import createReactClass from 'create-react-class';
+import React from 'react';
 import assign from 'object-assign';
 
 /**
@@ -11,7 +11,7 @@ function createComponent(mixin, isMixinOnly) {
     if (isMixinOnly) {
         return null;
     }
-    return { component: createReactClass(mixin) };
+    return { component: React.createClass(mixin) };
 }
 
 /**
