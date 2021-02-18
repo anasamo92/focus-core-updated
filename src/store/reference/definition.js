@@ -1,5 +1,5 @@
 import refConfigAccessor from '../../reference/config';
-import isEmpty from 'lodash/lang/isEmpty';
+import {isEmpty} from 'lodash';
 
 /**
  * Build the reference definition from the keys registered into the definitions.

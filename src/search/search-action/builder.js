@@ -1,5 +1,5 @@
-import keys from 'lodash/object/keys';
-import mapValues from 'lodash/object/mapValues';
+import {keys} from 'lodash';
+import {mapValues} from 'lodash';
 
 /**
  * Build facets for server expected format.

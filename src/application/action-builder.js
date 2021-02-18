@@ -1,6 +1,6 @@
 import dispatcher from '../dispatcher';
 import { manageResponseErrors } from '../network/error-parsing';
-import identity from 'lodash/utility/identity';
+import {identity} from 'lodash';
 
 /**
  * Method call before the service.

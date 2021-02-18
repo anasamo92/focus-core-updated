@@ -1,5 +1,5 @@
-import isObject from 'lodash/lang/isObject';
-import isArray from 'lodash/lang/isArray';
+import {isObject} from 'lodash';
+import {isArray} from 'lodash';
 
 import { getAll as getDomains } from '../definition/domain/container';
 

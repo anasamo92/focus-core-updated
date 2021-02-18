@@ -1,5 +1,5 @@
 import ArgumentInvalidException from '../../exception/argument-invalid-exception';
-import isObject from 'lodash/lang/isObject';
+import {isObject} from 'lodash';
 
 /**
  * Assert an object is an objet.

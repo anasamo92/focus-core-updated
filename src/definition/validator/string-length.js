@@ -1,4 +1,4 @@
-import isString from 'lodash/lang/isString';
+import {isString} from 'lodash';
 
 /**
  * Validate a string given options.

@@ -1,8 +1,8 @@
 /* eslint-disable filenames/match-regex */
 import ArgumentNullException from '../../exception/argument-null-exception';
 
-import isUndefined from 'lodash/lang/isUndefined';
-import isNull from 'lodash/lang/isNull';
+import {isUndefined} from 'lodash';
+import {isNull} from 'lodash';
 
 /**
  * Assert an object is an objet.

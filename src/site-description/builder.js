@@ -1,6 +1,6 @@
-import clone from 'lodash/lang/clone';
-import find from 'lodash/collection/find';
-import some from 'lodash/collection/some';
+import {clone} from 'lodash';
+import {find} from 'lodash';
+import {some} from 'lodash';
 
 import userHelper from '../user';
 import siteDescriptionReader from './reader';

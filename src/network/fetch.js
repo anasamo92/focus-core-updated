@@ -1,5 +1,5 @@
 import { v4 as uuid } from 'uuid';
-import merge from 'lodash/object/merge';
+import {merge} from 'lodash';
 
 import dispatcher from '../dispatcher';
 import { get as configGetter } from './config';

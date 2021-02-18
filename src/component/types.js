@@ -1,7 +1,7 @@
 //Dependencies.
 import PropTypes from 'prop-types';
-import isString from 'lodash/lang/isString';
-import isArray from 'lodash/lang/isArray';
+import {isString} from 'lodash';
+import {isArray} from 'lodash';
 
 /**
 * Expose a React type validation for the component properties validation.

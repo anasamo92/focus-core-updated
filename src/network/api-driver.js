@@ -1,6 +1,6 @@
-import entries from 'lodash/object/pairs';
-import isArray from 'lodash/lang/isArray';
-import isObject from 'lodash/lang/isObject';
+import {entries} from 'lodash';
+import {isArray} from 'lodash';
+import {isObject} from 'lodash';
 
 import fetch from './fetch';
 import urlBuilder from '../util/url/builder';

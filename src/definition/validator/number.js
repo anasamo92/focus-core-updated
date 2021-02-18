@@ -1,7 +1,7 @@
-import isUndefined from 'lodash/lang/isUndefined';
-import isNull from 'lodash/lang/isNull';
-import isNaN from 'lodash/lang/isNaN';
-import isNumber from 'lodash/lang/isNumber';
+import {isUndefined} from 'lodash';
+import {isNull} from 'lodash';
+import {isNaN} from 'lodash';
+import {isNumber} from 'lodash';
 
 /* Function to  validate that an input is a number.
  * @param  {string || number} numberToValidate - Number to validate with the function.

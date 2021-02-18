@@ -1,15 +1,14 @@
 import { ArgumentNullException, ArgumentInvalidException } from '../exception';
 
-import isObject from 'lodash/lang/isObject';
-import isFunction from 'lodash/lang/isFunction';
-import isArray from 'lodash/lang/isArray';
-import isEqual from 'lodash/lang/isEqual';
-import clone from 'lodash/lang/clone';
+import {isObject} from 'lodash';
+import {isFunction} from 'lodash';
+import {isArray} from 'lodash';
+import {isEqual} from 'lodash';
+import {clone} from 'lodash';
 
-
-import contains from 'lodash/collection/contains';
-import intersection from 'lodash/array/intersection';
-import keys from 'lodash/object/keys';
+import {contains} from 'lodash';
+import {intersection} from 'lodash';
+import {keys} from 'lodash';
 
 //Module page.
 let siteDescriptionStructure,

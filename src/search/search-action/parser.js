@@ -1,4 +1,4 @@
-import keys from 'lodash/object/keys';
+import {keys} from 'lodash';
 
 /**
 * Parse server search result to build facet results.

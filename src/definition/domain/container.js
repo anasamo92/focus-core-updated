@@ -1,7 +1,7 @@
 //Dependencies.
 import Immutable from 'immutable';
-import isObject from 'lodash/lang/isObject';
-import isString from 'lodash/lang/isString';
+import {isObject} from 'lodash';
+import {isString} from 'lodash';
 const InvalidException = Error;
 import checkIsString from '../../util/string/check';
 import checkIsObject from '../../util/object/check';

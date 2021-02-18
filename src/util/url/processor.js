@@ -1,4 +1,4 @@
-import compile from 'lodash/string/template';
+import {compile} from 'lodash';
 /**
 * Process an url in order to build them.
 */

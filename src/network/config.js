@@ -1,6 +1,6 @@
-import merge from 'lodash/object/merge';
-import isObject from 'lodash/lang/isObject';
-import clone from 'lodash/lang/cloneDeep';
+import {merge} from 'lodash';
+import {isObject} from 'lodash';
+import {clone} from 'lodash';
 
 /**
  * Configuration object. Except for xhrErrors, see https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch

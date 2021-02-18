@@ -2,13 +2,13 @@
 import { EventEmitter } from 'events';
 import assign from 'object-assign';
 
-import isArray from 'lodash/lang/isArray';
-import isFunction from 'lodash/lang/isFunction';
+import {isArray} from 'lodash';
+import {isFunction} from 'lodash';
 
-import defer from 'lodash/function/defer';
+import {defer} from 'lodash';
 
-import intersection from 'lodash/array/intersection';
-import capitalize from 'lodash/string/capitalize';
+import {intersection} from 'lodash';
+import {capitalize} from 'lodash';
 import Immutable from 'immutable';
 import AppDispatcher from '../dispatcher';
 

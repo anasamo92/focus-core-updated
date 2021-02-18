@@ -1,7 +1,7 @@
-import keys from 'lodash/object/keys';
-import intersection from 'lodash/array/intersection';
-import uniq from 'lodash/array/uniq';
-import difference from 'lodash/array/difference';
+import {keys} from 'lodash';
+import {intersection} from 'lodash';
+import {uniq} from 'lodash';
+import {difference} from 'lodash';
 
 export default function checkDomain(entityDef, domains) {
     domains = keys(domains);
