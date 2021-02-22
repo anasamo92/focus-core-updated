@@ -1,7 +1,7 @@
-import {compile} from 'lodash';
+import {template} from 'lodash';
 /**
 * Process an url in order to build them.
 */
 export default function (url, data) {
-    return compile(url)(data);
+    return template(url)(data);
 }
